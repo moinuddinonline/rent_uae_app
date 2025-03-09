@@ -1,0 +1,71 @@
+Get OTP
+    Resend
+Verify OTP Get Auth Token
+
+Complete Profile
+    Update Name / Email
+        User Object is_complete
+Verify Email 
+    GET Email OTP
+    Verify EMail OTP
+
+Dashboard
+    
+Get Rent Types
+    Create Rent
+        Payment Title (Eg: Home Rental, Car rental, Office Rent....) id
+        Receiver Name / Company (Property Owner)
+        Email
+        Mobile 
+        Amount
+        IBAN
+        IBAN Re-confirm * 
+        When(Date Calender) -- Date
+        Reason
+        Purpose
+        Agree terms check box
+
+Resend Rent To Same Vendor
+    Payment Title (Eg: Home Rental, Car rental, Office Rent....)
+    Receiver Name / Company
+    Email
+    Mobile 
+    Amount
+    IBAN
+    IBAN Re-confirm * 
+    When(Date Calender)
+    Reason
+    Purpose
+    Agree terms check box
+
+1. Create Rent 
+    Rent Vendor
+        Rent Type
+        Rent Vendor (Receiver Name / Company)
+        Email
+        Mobile
+        IBAN
+    Rent
+        Vendor id
+        Amount
+        When(Date Calender)
+        Reason
+        Purpose
+2. Get Transaction
+    Get all Transactions for a User from Rent Table with their Payment Details
+4. Resend Rent To Same Vendor
+    Select the Rent Vendor then add these below Details
+    Vendor id
+    Amount
+    When(Date Calender)
+    Reason
+    Purpose
+5. Create Payment
+    Create Payment on Payment Get way service API with the Rent Details
+6. Validate Payment
+    After Successful payment verify that payment from Payment Get way
+7. View Transaction
+    get Rent Details by ID
+8. Download Receipt
+    Download Rent Receipt By ID
+

@@ -1,0 +1,14 @@
+
+1.(Complete Controller.........)/app/Http/controller - under this folder create controller 
+2.(Complete Controller.........)/app/Http/Model - Under this file
+3.(Complete all.........)/bootstrap file and folder which created.
+4.(Completed all............)/Config folder create - jwt.php,laratrust_seeder.php,laratrust.php , also update already creating file 
+5.(Completed all............) database/migration - created all file.
+6.(Completed all............)/Resources - View folder and other all created and modify.
+7.(Completed all............)/Route - web.php modify, create api.php, create folder Web_admin.
+8.(Completed all............) /Public/assets - insert one png picture, create a /asset folder and created all folder and file
+9. (Completed AllVendor.......) - tymon,stella-maris,santigarcor,kkszymanowski,
+
+
+
+
